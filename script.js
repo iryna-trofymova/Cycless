@@ -5,5 +5,5 @@ while (!input || isNaN(input)) {
   input = +prompt("Enter a NUMBER of hours");
 }
 
-let seconds = 3600 * input;
+const seconds = 3600 * input;
 alert("There are " + seconds + " seconds");
